@@ -1,16 +1,16 @@
 
 
-# 📞 Phonebook Management System
+# Phonebook Management System
 
-## 📝 Description
+## Description
 
 **Phonebook Management System** is a C-based console application that allows users to manage contact information. It provides a simple and user-friendly interface for adding, searching, modifying, deleting, and listing contacts. Each contact stores personal information including name, address, phone number, email, and father's name. Data is saved using file handling for persistence across sessions.
 
 ---
 
-## 🚀 Features
+## Features
 
-### 📇 Contact Management
+### Contact Management
 
 * **Add New Contact**
   Add a new contact with name, address, father's name, phone number, and email.
@@ -27,7 +27,7 @@
 * **Delete Contact**
   Remove a contact by name from the phonebook.
 
-### 🧠 Additional Functionalities
+###  Additional Functionalities
 
 * Menu-based navigation with `getch()` for smooth user interaction
 * Formatted console output using `got()` function for manual character input
@@ -36,7 +36,7 @@
 
 ---
 
-## 💻 Technologies Used
+##  Technologies Used
 
 | Category           | Details                                                   |
 | ------------------ | --------------------------------------------------------- |
@@ -48,14 +48,14 @@
 
 ---
 
-## 🗂️ File Structure
+##  File Structure
 
 * **`project`** (Binary File): Stores serialized contact records.
 * **`temp.txt`** (Temp File): Used during deletion/modification for safe file rewriting.
 
 ---
 
-## 📦 Structure of `person`
+## Structure of `person`
 
 ```c
 struct person {
@@ -69,7 +69,7 @@ struct person {
 
 ---
 
-## 🧠 Data Flow
+##  Data Flow
 
 1. User selects an option from the menu.
 2. Appropriate function (`addrecord`, `listrecord`, `modifyrecord`, etc.) is invoked.
@@ -78,7 +78,7 @@ struct person {
 
 ---
 
-## 🛠 How to Run
+##  How to Run
 
 1. Compile the program using a C compiler like GCC:
 
@@ -94,7 +94,7 @@ struct person {
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 * Data is not encrypted — for educational use only.
 * Contact uniqueness is based only on the `name` field.
@@ -103,7 +103,7 @@ struct person {
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 * Add date-of-birth or group categories.
 * Input validation for emails and phone numbers.
@@ -112,7 +112,7 @@ struct person {
 
 ---
 
-## 📸 Sample Menu Display
+##  Sample Menu Display
 
 ```
 ********WELCOME TO PHONEBOOK***********
